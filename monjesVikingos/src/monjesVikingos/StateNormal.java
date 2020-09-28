@@ -6,7 +6,7 @@ public class StateNormal extends State{
 	public void atacar(Monje monje) {
 		System.out.println("Al ataque!! Mi poder de ataque es " + monje.puntosAtaque);
 	}
-
+	
 	@Override
 	public void defender(Monje monje) {
 		System.out.println("Me han atacado!!.Mis puntos de defensa es " + monje.puntosDefensa);

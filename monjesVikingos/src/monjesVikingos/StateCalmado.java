@@ -9,7 +9,7 @@ public class StateCalmado extends State {
 		monje.puntosAtaque=10;
 		monje.puntosDefensa=20;
 	}
-
+	
 	@Override
 	public void defender(Monje monje) {
 		System.out.println("No estoy en la batalla.");

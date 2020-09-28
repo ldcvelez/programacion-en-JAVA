@@ -6,7 +6,7 @@ public class StateBerseker extends State {
 	public void atacar(Monje monje) {
 		System.out.println("Soy una maquina de ataque!! Mi podes de ataque es " + monje.puntosAtaque);
 	}
-
+	
 	@Override
 	public void defender(Monje monje) {
 		System.out.println("Soy una maquina de ataque!! Me han atacado!!.Mis puntos de defensa es " + monje.puntosDefensa);

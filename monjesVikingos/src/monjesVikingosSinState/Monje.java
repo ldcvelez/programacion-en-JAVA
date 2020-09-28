@@ -5,7 +5,7 @@ public class Monje {
 	private String state;
 	public double puntosAtaque;
 	public double puntosDefensa;
-
+	
 	public Monje() {
 		this.state = "Normal";
 		this.puntosAtaque=10;

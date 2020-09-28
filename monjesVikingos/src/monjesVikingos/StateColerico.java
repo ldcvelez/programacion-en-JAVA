@@ -9,7 +9,7 @@ public class StateColerico extends State {
 		monje.puntosAtaque=10;
 		monje.puntosDefensa=20;
 	}
-
+	
 	@Override
 	public void atacar(Monje monje) {
 		System.out.println("Al ataque!! Mi podes de ataque es " + monje.puntosAtaque);

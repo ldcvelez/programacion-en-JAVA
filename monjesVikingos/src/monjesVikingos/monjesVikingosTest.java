@@ -7,7 +7,7 @@ import org.junit.Before;
 import org.junit.jupiter.api.Test;
 
 class monjesVikingosTest {
-
+	
 	private Monje monje = new Monje();
 	
 //	@Before
